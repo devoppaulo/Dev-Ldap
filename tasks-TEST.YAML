@@ -1,0 +1,8 @@
+TASKS
+TEST.YML
+
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - open-ldap
